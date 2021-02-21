@@ -104,8 +104,8 @@ footer > p {
 }
 #trailer {
   margin-top: 10px;
-  margin-left: 100px;
-  width: 400px;
+  width: 900px;
+  height: 440px;
 }
 video {
   width: 285px;
@@ -130,11 +130,7 @@ ul {
   background-color: black;
   text-align: center;
 }
-.trailer {
-  width: 250px;
-  text-align: right;
-  padding-left: 180px;
-}
+
 h2 > a:link {
   color: #12131a;
   text-decoration: none;

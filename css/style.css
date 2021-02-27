@@ -56,19 +56,8 @@ section {
   width: 70%;
   margin: auto;
 }
-footer {
-  height: 80px;
-  background-color: #ddaa4f;
-  padding: 0;
-  margin-top: 50px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
-  margin: 0;
-  margin-top: 100px;
-}
+
 footer > p {
-  color: #12131a;
   margin: 0;
   margin-bottom: 5px;
 }
@@ -182,22 +171,10 @@ h2 {
   color: #12131a;
   background-color: #ddaa4f;
 }
-.social-icon {
-  color: #12131a;
-  text-decoration: none;
-  margin: 5px;
-}
-.social-icon:visited {
-  color: #12131a;
-}
-.social-icon:hover {
-  color: #12131a;
-  text-decoration: underline;
-}
-footer > a,
-footer > p {
+
+/* footer {
   font-family: montserrat-bold;
-}
+} */
 
 /*form*/
 form {
@@ -549,4 +526,44 @@ article > p {
 }
 .character {
   margin-top: 0;
+}
+footer {
+  font-family: montserrat;
+  width: 100%;
+  color: #12131a;
+  background-color: #ddaa4f;
+  margin-top: 50px;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 100px;
+  display: grid;
+}
+
+a.social-icon,
+a.social-icon:visited,
+a.social-icon:active,
+a.copyright,
+a.copyright:visited,
+a.copyright:active {
+  color: #12131a;
+  text-decoration: none;
+  padding: 5px;
+}
+a.social-icon:hover {
+  color: #12131a;
+  text-decoration: underline;
+  padding: 5px;
+}
+a.copyright:hover {
+  text-decoration: underline;
+}
+footer p:first-child {
+  font-family: montserrat-bold;
+  font-size: 20px;
+  padding-top: 20px;
+}
+footer p:last-child {
+  font-family: montserrat;
+  font-size: 16px;
+  padding-top: 20px;
 }

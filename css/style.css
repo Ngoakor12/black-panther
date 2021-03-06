@@ -527,12 +527,12 @@ article > p {
 .character {
 	margin-top: 0;
 }
-/* a.inline-link {
+a.inline-link {
 	color: #12131a;
 }
 a.inline-link:hover {
 	color: #103a5f;
-} */
+}
 footer {
 	font-family: montserrat;
 	width: 100%;
